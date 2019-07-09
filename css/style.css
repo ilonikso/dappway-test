@@ -1091,7 +1091,7 @@ img {
   position: relative;
   margin-bottom: 30px;
 }
-.services__icon-svg {
+.card__item--services-icon svg {
   width: 70px;
   height: 70px;
   top: calc(50% - 35px);
