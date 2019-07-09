@@ -3221,7 +3221,7 @@ img {
   .portfolio-page__decoration--dotted-1 {
     position: absolute;
     bottom: -300px;
-    left: 0%;
+    left: 0;
     z-index: -5;
   }
   .portfolio-page {
