@@ -1491,7 +1491,7 @@ img {
   background: white;
   position: absolute;
   top: 23%;
-  left: 4.5%;
+  left: 9.5%;
   border-radius: 30px;
   -webkit-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
@@ -1506,13 +1506,45 @@ img {
   background: white;
   position: absolute;
   top: 23%;
-  left: 45.2%;
+  left: 40.2%;
   border-radius: 30px;
   -webkit-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
   opacity: 0.8;
 }
 .rightSlide .slider__image::after {
+  display: none;
+}
+.leftSlideBack {
+  width: 50%;
+  height: 48%;
+  background: white;
+  position: absolute;
+  top: 36.5%;
+  left: 3.2%;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  z-index: -1;
+}
+.leftSlideBack .slider__first::after {
+  display: none;
+}
+.rightSlideBack {
+  width: 50%;
+  height: 48%;
+  background: white;
+  position: absolute;
+  top: 36.5%;
+  left: 45.2%;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  z-index: -1;
+}
+.rightSlideBack .slider__image::after {
   display: none;
 }
 .slide {
@@ -2283,6 +2315,7 @@ img {
   padding-right: 20px;
   padding-left: 20px;
   max-width: 1170px;
+  max-width: 1920px;
   margin: 0 auto;
   position: relative;
 }
@@ -2301,7 +2334,7 @@ img {
   letter-spacing: 0.04em;
 }
 .portfolio-page__block {
-  margin-top: 50px;
+  margin-top: 38px;
   margin-bottom: 130px;
 }
 .portfolio-page__decoration--text {
@@ -2310,7 +2343,7 @@ img {
   display: block;
   position: absolute;
   left: 50%;
-  top: 230px;
+  top: 20px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: -3;
@@ -2318,11 +2351,15 @@ img {
 }
 .portfolio-page__decoration--dotted-1 {
   position: absolute;
-  bottom: -500px;
-  left: -20%;
+  top: 350px;
+  right: 2%;
   z-index: -5;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+}
+.portfolio-page__decoration--dotted-2 {
+  position: absolute;
+  top: 1360px;
+  left: 2%;
+  z-index: -5;
 }
 .work__wrapper {
   max-width: 1170px;
@@ -2343,7 +2380,7 @@ img {
   border-radius: 30px;
   overflow: hidden;
   background-color: #1f242c;
-  margin-top: 20px;
+  margin-top: 32px;
 }
 .work__item:hover {
   -webkit-transition: 0.1s ease;
@@ -2379,10 +2416,9 @@ img {
           flex-direction: column;
   padding-left: 38px;
   padding-right: 38px;
-  padding-top: 33px;
-  padding-bottom: 29px;
+  padding-top: 42px;
+  padding-bottom: 40px;
   position: relative;
-  border-bottom: 1px solid #363a42;
 }
 .work__description a {
   font-family: 'IBMPlexMono-Bold';
@@ -2433,8 +2469,10 @@ img {
           flex-grow: 0;
   padding-left: 38px;
   padding-right: 38px;
-  padding-top: 35px;
+  padding-top: 34px;
   padding-bottom: 40px;
+  border-top: 1px solid #363a42;
+  display: none;
 }
 .work__team img {
   width: 100px;
@@ -2755,12 +2793,18 @@ img {
   }
   .portfolio-page__decoration--text {
     font-size: 150px;
-    top: 1%;
+    top: 2.2%;
   }
   .portfolio-page__decoration--dotted-1 {
     position: absolute;
-    bottom: -300px;
-    left: 0%;
+    top: 50px;
+    right: 2%;
+    z-index: -5;
+  }
+  .portfolio-page__decoration--dotted-2 {
+    position: absolute;
+    top: 90%;
+    left: 2%;
     z-index: -5;
   }
   .work__picture {
@@ -3014,6 +3058,19 @@ img {
     -webkit-transform: translatex(-50%);
             transform: translatex(-50%);
   }
+  .rightSlide {
+    left: 45%;
+  }
+  .rightSlideBack {
+    left: 45%;
+  }
+  .leftSlide {
+    left: 4.5%;
+  }
+  .leftSlideBack {
+    left: 4.6%;
+    width: 40%;
+  }
   .slider__link {
     font-size: 24px;
   }
@@ -3216,12 +3273,18 @@ img {
   }
   .portfolio-page__decoration--text {
     font-size: 100px;
-    top: 6.9%;
+    top: 3%;
   }
   .portfolio-page__decoration--dotted-1 {
     position: absolute;
-    bottom: -300px;
-    left: 0;
+    top: 300px;
+    right: 2%;
+    z-index: -5;
+  }
+  .portfolio-page__decoration--dotted-2 {
+    position: absolute;
+    top: 80%;
+    left: 2%;
     z-index: -5;
   }
   .portfolio-page {
@@ -3239,7 +3302,7 @@ img {
   .work__item {
     width: 100%;
     max-width: 570px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 }
 @media (max-width: 767.8px) {
@@ -3424,6 +3487,11 @@ img {
   }
 }
 @media (max-width: 540px) {
+  .work__item {
+    width: 100%;
+    max-width: 570px;
+    margin-bottom: 0px;
+  }
   .work__team {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
