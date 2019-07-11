@@ -2161,7 +2161,8 @@ img {
     color: @grey_blue;
     margin-top: 21px;
     margin-bottom: 18px;
-    line-height: 36px;*/
+    
+    line-height: 36px; */
 }
 .about-page__cards {
   padding-top: 40px;
