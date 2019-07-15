@@ -311,49 +311,49 @@ template {
   font-family: 'IBMPlexMono-Bold';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/IBMPlexMono-Bold.ttf') format('truetype');
+  src: url('../fonts/IBMPlexMono-Bold.woff2') format('woff2'), url('../fonts/IBMPlexMono-Bold.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'IBMPlexMono-Regular';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/IBMPlexMono-Regular.ttf') format('truetype');
+  src: url('../fonts/IBMPlexMono-Regular.woff2') format('woff2'), url('../fonts/IBMPlexMono-Regular.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'IBMPlexMono-SemiBold';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/IBMPlexMono-SemiBold.ttf') format('truetype');
+  src: url('../fonts/IBMPlexMono-SemiBold.woff2') format('woff2'), url('../fonts/IBMPlexMono-SemiBold.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'Roboto-Bold';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'Roboto-Regular';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'Roboto-Medium';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'), url('../fonts/Roboto-Medium.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'), url('../fonts/Roboto-Light.ttf') format('truetype');
   font-display: swap;
 }
 html {
@@ -2006,6 +2006,11 @@ img {
   -webkit-transform: scale(0.98);
           transform: scale(0.98);
 }
+.form label {
+  font-size: 0;
+  height: 0;
+  width: 0;
+}
 .form__links {
   font-family: 'IBMPlexMono-Regular';
   font-size: 16px;
@@ -2774,7 +2779,7 @@ img {
   display: block;
   content: '';
   width: 100%;
-  height: 1px;
+  height: 1.2px;
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAAGUlEQVQImWOwdfH5D8IMOAATLgkwYGBgAADbOgObQKzycwAAAABJRU5ErkJggg==');
   position: absolute;
   top: 20px;
@@ -2783,6 +2788,10 @@ img {
 }
 .sheet__list-item:hover {
   color: #ffffff;
+}
+.sheet__list-item-2:hover span:nth-child(3),
+.sheet__list-item--main:hover span:nth-child(3) {
+  color: #fffefe;
 }
 .sheet__list-item-2:hover span:nth-child(3)::after,
 .sheet__list-item--main:hover span:nth-child(3)::after {
@@ -2800,6 +2809,7 @@ img {
   float: right;
   background-color: #1f242c;
   padding-left: 10px;
+  color: #a8adb3;
 }
 .sheet__price::after {
   display: block;
