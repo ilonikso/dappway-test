@@ -2782,7 +2782,7 @@ img {
   height: 1.2px;
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAAGUlEQVQImWOwdfH5D8IMOAATLgkwYGBgAADbOgObQKzycwAAAABJRU5ErkJggg==');
   position: absolute;
-  top: 20px;
+  top: 24px;
   left: 0;
   z-index: -1;
 }
