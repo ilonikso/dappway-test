@@ -2789,6 +2789,10 @@ img {
 .sheet__list-item:hover {
   color: #ffffff;
 }
+.sheet__list-item-2,
+.sheet__list-item--main {
+  cursor: pointer;
+}
 .sheet__list-item-2:hover span:nth-child(3),
 .sheet__list-item--main:hover span:nth-child(3) {
   color: #fffefe;
