@@ -3431,6 +3431,10 @@ img {
     padding-bottom: 0;
     margin-bottom: 20px;
   }
+  .card__item--services:hover {
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
   .cards__item-jobs-page {
     width: calc(100% - 20px);
     padding-right: 30px;
