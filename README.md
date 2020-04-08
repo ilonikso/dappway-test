@@ -17,4 +17,4 @@ In the course of the work the following points were performed:
 
 The work was done with high quality and on time. Working with Kostya brought me not only pleasure but also invaluable experience that I can apply in future projects!
 
-![Website overview](https://github.com/ilonikso/dappway-tes/raw/master/img/raster/index-desktop-3.png)
+![Website overview](https://github.com/ilonikso/dappway-test/raw/master/img/raster/index-desktop-3.png)
